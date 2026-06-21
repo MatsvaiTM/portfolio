@@ -1,4 +1,7 @@
 import { motion } from "framer-motion";
+import delf from "/src/components/certificates/delf-a1.pdf";
+import olev from "/src/components/certificates/o-level.pdf";
+import alev from "/src/components/certificates/a-level.pdf";
 
 export default function Certificates() {
   const qualifications = [
@@ -7,28 +10,28 @@ export default function Certificates() {
       institution: "Alliance Française",
       year: "2020",
       icon: "🇫🇷",
-      file: "/certificates/delf-a1.pdf",
+      file: delf,
     },
     {
       title: "ZIMSEC O-Level Certificate",
       institution: "ZRP High School",
       year: "2020",
       icon: "🎓",
-      file: "/certificates/o-level.pdf",
+      file: olev,
     },
     {
       title: "ZIMSEC A-Level Certificate",
       institution: "ZRP High School",
       year: "2022",
       icon: "🎓",
-      file: "/certificates/a-level.pdf",
+      file: alev,
     },
     {
       title: "First Aid Certificate",
       institution: "Red Cross",
       year: "2023",
       icon: "🏥",
-      file: "/certificates/red-cross-aid.pdf",
+      file: "",
     },
     {
       title: "BSc Mechatronics Engineering",
