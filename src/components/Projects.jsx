@@ -1,10 +1,12 @@
 import { motion } from "framer-motion";
+import rover from "/src/components/rover.jpg";
+import damc from "/src/components/dam-cleaner.jpg";
 
 export default function Projects() {
   const projects = [
     {
       title: "🌱 Autonomous Seed Sprayer Rover",
-      image: "/src/components/rover.jpg",
+      image: rover,
       technologies: [
         "ESP32",
         "GPS",
@@ -22,7 +24,7 @@ export default function Projects() {
     },
     {
       title: "♻️ Automated Dam Cleaner",
-      image: "/src/components/dam-cleaner.jpg",
+      image: damc,
       technologies: [
         "Embedded Systems",
         "Sensors",
