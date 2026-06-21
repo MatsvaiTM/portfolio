@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+    background:#020617;
+    background-image:
+      radial-gradient(circle at top left,#1e3a8a22,transparent 30%),
+      radial-gradient(circle at bottom right,#06b6d422,transparent 30%);
+}
+
+.vertical-timeline-element-content {
+  background: rgba(15, 23, 42, 0.6) !important; /* slate-900 glass */
+  color: #e5e7eb !important;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  box-shadow: none !important;
+  backdrop-filter: blur(8px);
+}
+
+.vertical-timeline-element-title {
+  color: #ffffff !important;
+}
+
+.vertical-timeline-element-subtitle {
+  color: #9ca3af !important;
+}
+
+.vertical-timeline-element-date {
+  color: #93c5fd !important;
+  font-weight: 500;
+}
